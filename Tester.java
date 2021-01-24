@@ -46,9 +46,8 @@ public class Tester {
 					if (input_iN == 1) {
 						Item item = new Item("Soda", input_iN, 1.99);
 
-						order.addToOrder(orderNumber, item, orderSize);
-
-						order.printList(orderNumber, orderSize);
+						//order.addToOrder(orderNumber, item, orderSize);
+						//order.printList(orderNumber, orderSize);
 
 						System.out.println("You ordered a " + item.getItemName() + " which is $ "
 								+ item.getItemPrice(input_iN) + ". ");
@@ -56,8 +55,8 @@ public class Tester {
 					} else if (input_iN == 2) {
 						Item item = new Item("Hot Dog", input_iN, 4.99);
 
-						order.addToOrder(orderNumber, item, orderSize);
-						order.printList(orderNumber, orderSize);
+						//order.addToOrder(orderNumber, item, orderSize);
+						//order.printList(orderNumber, orderSize);
 
 						System.out.println("You ordered a " + item.getItemName() + " which is $ "
 								+ item.getItemPrice(input_iN) + ". ");
@@ -65,24 +64,24 @@ public class Tester {
 					} else if (input_iN == 3) {
 						Item item = new Item("Pizza", input_iN, 8.99);
 
-						order.addToOrder(orderNumber, item, orderSize);
-						order.printList(orderNumber, orderSize);
+						//order.addToOrder(orderNumber, item, orderSize);
+						//order.printList(orderNumber, orderSize);
 						System.out.println("You ordered a " + item.getItemName() + " which is $ "
 								+ item.getItemPrice(input_iN) + ". ");
 
 					} else if (input_iN == 4) {
 						Item item = new Item("Pasta", input_iN, 13.99);
 
-						order.addToOrder(orderNumber, item, orderSize);
-						order.printList(orderNumber, orderSize);
+						//order.addToOrder(orderNumber, item, orderSize);
+						//order.printList(orderNumber, orderSize);
 						System.out.println("You ordered a " + item.getItemName() + " which is $ "
 								+ item.getItemPrice(input_iN) + ". ");
 
 					} else if (input_iN == 5) {
 						Item item = new Item("Family Meal", input_iN, 21.99);
 
-						order.addToOrder(orderNumber, item, orderSize);
-						order.printList(orderNumber, orderSize);
+						//order.addToOrder(orderNumber, item, orderSize);
+						//order.printList(orderNumber, orderSize);
 						System.out.println("You ordered a " + item.getItemName() + " which is $ "
 								+ item.getItemPrice(input_iN) + ". ");
 
@@ -103,7 +102,7 @@ public class Tester {
 
 				System.out.print("Your order has been placed, please wait for the robot to bring it to you.");
 
-				orderNumber++;
+				//orderNumber++;
 				// when user enters 0, add all items to orderNumber and chefTODO
 			}
 			// else if (input2 == 2) {
