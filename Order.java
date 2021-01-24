@@ -18,8 +18,7 @@ public class Order {
 
 		for (int i = 0; i < orderSize; i++) {
 			if (orderList[i] == null) {
-				
-				orderList[i] = item;
+			orderList[i] = item;
 				
 			}
 			
